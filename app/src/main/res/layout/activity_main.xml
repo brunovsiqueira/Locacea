@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old.MainActivity"
+    android:background="@drawable/gradient_blue_to_red">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:layout_marginTop="32dp">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/infracea_icon"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40sp">
+
+        <Button
+            android:id="@+id/main_new_contract"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/white"
+            android:text="NOVO CONTRATO"
+            android:textAllCaps="false"
+            android:textSize="17.1sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:layout_marginTop="32dp"/>
+
+        <Button
+            android:id="@+id/main_cars_button"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/white"
+            android:text="GERENCIAR CARROS"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:textSize="17.1sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/main_contracts_button"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/white"
+            android:text="FINALIZAR CONTRATOS"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:textSize="17.1sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/home_linked_terms_policy"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginLeft="42dp"-->
+        <!--android:layout_marginRight="42dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/pre_login_explanation"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="10sp"-->
+        <!--android:visibility="gone"-->
+        <!--android:textAlignment="center"/>-->
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

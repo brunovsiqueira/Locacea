@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimary">#FF1500</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF1500</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red_app">#FF1500</color>
+    <color name="text_gray">#717171</color>
+    <color name="light_gray">#d5d5d5</color>
+    <color name="opacle_gray">#7fffffff</color>
+    <color name="opacle_white">#ffffff80</color>
+    <color name="opacle_black">#71717180</color>
+    <color name="shadow">#40000000</color>
+    <color name="promotions_bg">#73737380</color>
+    <color name="gray_bg">#d8d8d8</color>
+    <color name="blue">#0000ff</color>
+    <color name="transparent">#00000000</color>
+</resources>
